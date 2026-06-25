@@ -14,17 +14,5 @@ A lightweight, cross-platform port scanner written in C++20. Quickly check if sp
 
 - **CMake** 3.8 or higher
 - **C++20 compiler** (MSVC, GCC, or Clang)
-- **Ninja** build generator (or compatible alternative)
 - **Windows**: Visual Studio 2022 or Build Tools
 - **Linux/macOS**: GCC/Clang with standard development libraries
-
-## Building
-
-### Visual Studio 2022
-
-1. Open the folder: **File > Open > Folder** → select this project
-2. Visual Studio will auto-detect CMake
-3. Select a preset from the configuration dropdown: `x64-debug`, `x64-release`, `x86-debug`, or `x86-release`
-4. Build: **CMake > Build All** or press **Ctrl+Shift+B**
-
-### Command Line
